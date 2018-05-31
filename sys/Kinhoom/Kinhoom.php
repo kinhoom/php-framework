@@ -1,6 +1,9 @@
 <?php
 namespace Kinhoom;
 
+//引入异常处理入口
+require_once EX_PATH.'registerErrorHandler.php';
+
 //引入公共函数
 require_once COMM_FUNC.'Function.php';
 //对系统配置文件中的数组定义常量

@@ -16,6 +16,8 @@ $base_path=rtrim(str_replace('\\','/',__DIR__.'/////'),'/').'/';
 define("SYS_PATH", $base_path . 'sys/');
 //定义应用路径
 define("APP_PATH", $base_path . 'app/');
+//定义异常处理路径
+define("EX_PATH", SYS_PATH . 'exception/');
 //定义系统配置文件路径
 define("CONF_PATH", SYS_PATH . 'conf/');
 //定义基础类文件路径
